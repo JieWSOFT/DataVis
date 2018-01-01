@@ -1,0 +1,57 @@
+body{
+  font-family: Noto Sans S Chinese Blod
+}
+.dataVis_layout{
+  height: 100%
+}
+.dataVis_header{
+  padding: 0;
+  background-color: #005ca7
+}
+.dataVis_header_backBtton{
+  height: 100%;
+  width: 80px;
+  display: inline-block;
+  background-color: #005ca7;
+  border-radius: 0;
+  border: 0;
+  font-size: 25px;
+  text-align: center;
+  color: #fff
+}
+.dataVis_header_backBtton:hover{
+  background-color: #119fff; 
+}
+
+.dataVis_header_title{
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff
+}
+.dataVis_header_right_wrap{
+  float: right;
+}
+.dataVis_header_icon{
+  color: #fff;
+  font-size: 24px;
+  padding: 0 15px;
+  margin-top: 20px
+}
+
+.dataVis_header_userName{
+  position: relative;
+  font-size: 20px;
+  color: #ffffff
+}
+.dataVis_header_userName::before{
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: rgba(243,244,244,.5);
+  height: 50px;
+  top: -9px;
+  left: -10px;
+}
+.dataVis_header_userName>span{
+  font-weight: 500
+}
