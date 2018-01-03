@@ -23,10 +23,8 @@
     "react/prefer-stateless-function": [0],
     "react/prop-types": [0],
     "require-yield": [1],
-    "linebreak-style": [
-      "error",
-      "windows"
-    ]
+    "linebreak-style": "off",
+    "indent":"off"
   },
   "parserOptions": {
     "ecmaFeatures": {
