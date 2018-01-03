@@ -1,0 +1,40 @@
+.data_integration_title{
+    font-size: 24px;
+}
+.data_integration_content_wrap{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+    padding: 10px;
+    padding-bottom: 60px
+}
+.data_integration_content_add_btn{
+    position: absolute;
+    right: 50px;
+    top: -20px;
+    z-index: 1;
+    background-color: #005ca7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.data_integration_content_add_btn:hover{
+    background-color: #119fff
+}
+.data_integration_content_add_icon{
+    color: white;
+}
+.data_integration_table{
+    background-color: #fff
+}
+.data_integration_table th{
+    padding: 8px 10px !important
+}
+.data_integration_table td{
+    padding: 8px 10px !important    
+}

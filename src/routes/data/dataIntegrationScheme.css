@@ -1,0 +1,13 @@
+.data_integration_scheme_wrap{
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 20px
+
+}
+.data_integration_scheme_title{
+    font-size: 24px
+}
+.data_integration_scheme_content{
+    margin-top: 10px;
+}

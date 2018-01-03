@@ -14,6 +14,10 @@ function RouterConfig({ history, app }) {
       path: '/dataTemplete',
       models: () => [import('./models/data/dataTemplete')],
       component: () => import('./routes/data/dataTemplete'),
+    }, {
+      path: '/dataIntegrationScheme',
+      models: () => [import('./models/data/dataIntegrationScheme')],
+      component: () => import('./routes/data/dataIntegrationScheme'),
     }
   ]
   return (

@@ -41,7 +41,7 @@ const IndexPage = ({ children, index, dispatch }) => {
             <Menu.Item key="ybp" ><Link to="/"><span><Icon type="layout" /><span>仪表盘</span></span></Link></Menu.Item>
             <Menu.Item key="search" ><Link to="/"><span><Icon type="layout" /><span>搜索</span></span></Link></Menu.Item>
             <SubMenu key="sub1" title={<span><Icon type="layout" /><span>数据集成</span></span>}>
-              <Menu.Item key="1" ><Link to="/">数据集成方案</Link></Menu.Item>
+              <Menu.Item key="1" ><Link to="/dataIntegrationScheme">数据集成方案</Link></Menu.Item>
               <Menu.Item key="2"><Link to="/dataTemplete">规则模版管理</Link></Menu.Item>
             </SubMenu>
             <Menu.Item key="dataCalc" ><Link to="/"><span><Icon type="layout" /><span>数据计算</span></span></Link></Menu.Item>
@@ -64,4 +64,3 @@ IndexPage.prototypes = {
 }
 
 export default withRouter(connect(({ index }) => ({ index }))(IndexPage))
-
